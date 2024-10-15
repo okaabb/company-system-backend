@@ -10,7 +10,7 @@
             <column name="hire_date" value="2007-12-03"/>
             <column name="position" value="CEO"/>
             <column name="user_name" value="admin"/>
-            <column name="password" value="admin"/>
+            <column name="password" value="$2a$12$nITZnRt16ZmGtefs.06Wi.1BBt8cSsxZ9eQwlSNPardKKBvy4.92m"/>
             <column name="is_deleted" value="0"/>
             <column name="created_at" value="2007-12-03"/>
             <column name="created_by" value="1"/>
