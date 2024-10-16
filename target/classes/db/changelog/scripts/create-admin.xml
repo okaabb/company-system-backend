@@ -1,0 +1,19 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="2" author="hanaa">
+        <insert tableName="employee">
+            <column name="name" value="admin"/>
+            <column name="email" value="admin@test.com"/>
+            <column name="mobile_number" value="01000000000"/>
+            <column name="national_id" value="00000000000000"/>
+            <column name="hire_date" value="2007-12-03"/>
+            <column name="position" value="CEO"/>
+            <column name="user_name" value="admin"/>
+            <column name="password" value="$2a$12$nITZnRt16ZmGtefs.06Wi.1BBt8cSsxZ9eQwlSNPardKKBvy4.92m"/>
+            <column name="is_deleted" value="0"/>
+            <column name="created_at" value="2007-12-03"/>
+            <column name="created_by" value="1"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

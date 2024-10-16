@@ -1,8 +1,9 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
-
-    <include file="db/changelog/scripts/create_tables.xml"/>
-    <include file="db/changelog/scripts/create-admin.xml"/>
-    <include file="db/changelog/scripts/insert-dummy-department-employee-applicant.xml"/>
+    <changeSet id="3" author="hanaa">
+        <loadData file="dummy-departments.csv" tableName="department"/>
+        <loadData file="dummy-employees.csv" tableName="employee"/>
+        <loadData file="dummy-applicants.csv" tableName="applicant"/>
+    </changeSet>
 </databaseChangeLog>
