@@ -1,0 +1,25 @@
+# Maven / Gradle dependencies
+target/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE-specific files
+.idea/
+*.iml
+.project
+.classpath
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+.env
+*.jar
+*.war
+*.ear
